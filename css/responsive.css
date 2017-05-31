@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 667px) {
   /***********************
   HEADING
   ***********************/
@@ -23,7 +23,6 @@
 
   #gallery li {
     width: 28.3333%;
-
   }
   
   #gallery li:nth-child(3n+1) {
