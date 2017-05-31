@@ -1,50 +1,4 @@
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-  
-  h1 {
-    margin: 15px 0;
-    font-size: 6em;
-    font-weight: bolder;
-    line-height: 0.8em;
-  }
-
-  h2 {
-    font-family: 'Indie Flower', cursive;
-    font-size: 3em;
-    margin: -5px 0 0;
-    font-weight: normal;
-  }
-
-  nav a {
-    font-size: 1em;
-/*  font-weight: 2400;*/
-}
-
-/***********************
-FOOTER
-***********************/
-
-footer {
-  font-size: 2.25em;
-  padding-top: 50px;
-}
-
-.social-icon {
-  width: 60px;
-  height: 60px;
-  margin: 0 5px;  
-}
-
-#gallery p {
-  margin: 0;
-  padding: 5%;
-  font-size: 2.25em;
-  color: #999999;
-}
-
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media screen and (min-width: 768px) {
   /***********************
   HEADING
   ***********************/
@@ -57,6 +11,31 @@ footer {
   #secondary {
     width: 40%;
     float: right;
+  }
+
+  /***********************
+  HEADER
+  ***********************/  
+  
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+  
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+
+    header {
+    border-bottom: 5px solid  #007fa8;
+    margin-bottom: 60px;
   }
   
   
@@ -93,77 +72,40 @@ footer {
 @media screen and (min-width: 1024px) {
 
   /***********************
-  HEADING
-  ***********************/
-  
-  #primary {
-    width: 50%;
-    float: left;
-  }
-  
-  #secondary {
-    width: 40%;
-    float: right;
-  }
-
-  /***********************
   HEADER
   ***********************/  
-  
-  nav {
-    background: none;
-    float: right;
-    font-size: 1.125em;
-    margin-right: 5%;
-    text-align: right;
-    width: 45%;
-  }
-  
-  #logo {
-    float: left;
-    margin-left: 5%;
-    text-align: left;
-    width: 45%;
-  }
-  
+    
   h1 {
     font-size: 2.5em;
   }
   
   h2 {
     font-size: 1.25em;
-    margin-bottom: 20px;
   }
   
-  header {
-    border-bottom: 5px solid  #007fa8;
-    margin-bottom: 60px;
+}
+
+@media only screen and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+  
+  h1 {
+    font-size: 6em;
   }
 
-  /***********************
-  PAGE: PORTFOLIO
-  ***********************/
-    #gallery li:nth-child(2n+1) {
-    clear: none;
-  }  
-
-  #gallery li {
-    width: 28.3333%;
-  }
-  
-  #gallery li:nth-child(3n+1) {
-    clear: left;
+  h2 {
+    font-size: 3em;
   }
 
-  
-  /***********************
-  PAGE: ABOUT
-  ***********************/
-  .profile-photo {
-    float: left;
-    margin: 0 5% 80px 0;
-  }
-  
-  
+footer {
+  font-size: 2.25em;
+}
 
+.social-icon {
+  width: 60px;
+  height: 60px; 
+}
+
+#gallery p {
+  font-size: 2.25em;
 }
